@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1{
+    background-image: url(images.jpeg);
+    background-clip: text;
+    color: transparent;
+    font-family:'Franklin Gothic Medium';
+    padding: 1rem;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.cards{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+    &:hover{
+        opacity: calc(0.5);
+    }
+}
+
+
+.score-card{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem;
+
+}
+.msg-card{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+ 
+#msg{ 
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    display: inline;
+    border-radius: 1rem;
+}
+
+
